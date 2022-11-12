@@ -19,13 +19,13 @@ function Projects({projectRef}) {
       <Card.Img className='project-card-img' src={gid_record} />
       <div style={{display:'flex',justifyContent:'center'}}>
         <IconButton sx={{marginLeft:'30px'}} onClick={(e)=>window.open('https://thegreatindiandessert.netlify.app')} ><img style={{height:'30px',width:'30px'}}src='https://cdn-icons-png.flaticon.com/512/2807/2807256.png'/></IconButton>
-        <IconButton sx={{marginLeft:'30px'}} onClick={(e)=>window.open('https://github.com/KashyapPLN/TheGreatIndianDessert')} ><img style={{height:'40px',width:'40px'}} src='https://cdn-icons-png.flaticon.com/512/876/876019.png'/></IconButton>    
+        <IconButton sx={{marginLeft:'30px'}} onClick={(e)=>window.open('https://github.com/KashyapPLN/gid_react')} ><img style={{height:'40px',width:'40px'}} src='https://cdn-icons-png.flaticon.com/512/876/876019.png'/></IconButton>    
         </div>
       </div>
       <Card.Body style={{marginRight:'30px'}}>
         <Card.Title><h1>The Great Indian Dessert</h1></Card.Title>
         <Card.Text>
-          The Great Indian Dessert is a web Application through which a user can buy delicious desserts with just a few clicks.<p>Technologies used : React Js, Node Js, Mongo Db, Express Js, React-bootstrap, Material UI, Google Pay, Google Firebase, JWT and Node-mailer</p>
+          The Great Indian Dessert is a web Application through which a user can buy delicious desserts with just a few clicks.<p>Technologies used : React Js, Node Js, Mongo Db, Express Js, React-bootstrap, Material UI, Google Pay, Google Firebase, JWT and Node-mailer.</p>
         </Card.Text>
         
       </Card.Body>
