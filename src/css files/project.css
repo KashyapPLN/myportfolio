@@ -1,0 +1,29 @@
+.project-card{
+    background: rgba(255, 255, 255, 0.075);
+ }
+ .projectDetails{
+    display: flex;
+    justify-content: space-around;
+  }
+  .projectheading{
+    color:rgb(248, 245, 207);
+    /* background-color:rgba(197, 47, 47, 0.658); */
+    /* width: 10%; */
+    padding:15px;
+    font-weight: bolder;
+   text-align: center;
+    font-size: 60px;
+    margin-bottom: 8%;
+    text-align: center;
+  }
+  .project-card-img{
+    width:300px;
+    height:180px;
+    margin:30px;    
+    border-radius:5px;
+   
+
+  }
+  .Projects{
+    height: 100vh;
+  }

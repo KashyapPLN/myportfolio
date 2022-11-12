@@ -1,0 +1,23 @@
+#about{
+    height:100vh;
+}
+.about-content{
+
+    color:rgb(248, 245, 207);
+  /* width:600px; */
+  padding:30px;
+  
+  }
+  .about-container{
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+    /* background-color: rgba(255, 255, 255, 0.075); */
+    width: 50%;
+    place-items: center;
+    margin-left: 28%;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    line-height: 35px;
+    letter-spacing: 4px;
+  }

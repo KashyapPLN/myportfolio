@@ -1,0 +1,18 @@
+.phone{
+
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+    width:200px;
+    background-color:rgba(255, 255, 255, 0.075);
+    place-items:center;
+    border-radius: 8px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+  }
+  .emailicon{
+    border-radius: 50%;
+    
+  }

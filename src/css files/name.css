@@ -1,0 +1,17 @@
+.text{
+    color:rgb(248, 245, 207);
+  
+    font-size: 50px;
+  }
+
+  .nc{
+    padding-left: 100px;
+  }
+  .name{
+    font-weight: bolder;
+    color:rgb(248, 245, 207);
+    font-size: 100px;
+    
+    text-decoration: none;
+    margin-top: 30px;
+  }
