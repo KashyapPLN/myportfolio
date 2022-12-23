@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap';
 function About({aboutRef}) {
     return (
         <div ref={aboutRef} id='about'>
-            <h2 style={{color:'rgb(248, 245, 207)',fontWeight:'bold',fontSize:'60px',textAlign:'center'}}>About</h2>
+            <h2 style={{color:'rgb(248, 245, 207)',fontWeight:'bold',fontSize:'60px',textAlign:'center'}}>About me</h2>
             <Container className='about-container'>
             <p className='about-content'>
           Hi, I am P.L.N Kashyap from Visakhapatnam.I am an engineer with an Information Technology background.
