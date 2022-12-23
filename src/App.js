@@ -24,7 +24,7 @@ const contactRef= useRef(null);
           <Nav className="me-auto" >
            <div className='custom-nav'>
             <Nav.Link className='nav-text' ><Link to='home'spy={true} smooth={true} offset={-100} duration={500}className='nav-text' >Home</Link></Nav.Link>
-            <Nav.Link className='nav-text' ><Link to='about'spy={true} smooth={true} offset={-100} duration={600}className='nav-text' >About</Link></Nav.Link>
+            <Nav.Link className='nav-text' ><Link to='about'spy={true} smooth={true} offset={-100} duration={600}className='nav-text' >About me</Link></Nav.Link>
             <Nav.Link className='nav-text' ><Link to='skills'spy={true} smooth={true} offset={-200} duration={900}className='nav-text' >Skills</Link></Nav.Link>
             <Nav.Link className='nav-text' ><Link to='project'spy={true} smooth={true} offset={-200} duration={1500}className='nav-text' >Projects</Link></Nav.Link>
          
