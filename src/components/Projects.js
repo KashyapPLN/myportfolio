@@ -32,22 +32,7 @@ function Projects({projectRef}) {
       </div>
     </Card>
     {/* <img src=' https://i.pinimg.com/originals/0c/45/15/0c4515230a5f97f081a3f084b9d54c7a.gif' style={{height:'300px',width:'60px'}}/> */}
-    <Card className='project-card' style={{ width: '800px',color:'rgb(248, 245, 207)',height:'350px',border:'none',borderRadius:'8px',marginBottom:'30px',padding:'20px',lineHeight:'25px' }}>
-    <div style={{display:'flex',marginTop:'30px'}}>
-    <div style={{display:'flex',flexDirection:'column',justifyContent:'center'}}>
-      <Card.Img className='project-card-img' src={Recording} />
-      <IconButton sx={{marginLeft:'30px'}} onClick={(e)=>window.open('https://github.com/KashyapPLN/myportfolio')} ><img style={{height:'40px',width:'40px'}} src='https://cdn-icons-png.flaticon.com/512/876/876019.png' alt='portfolio sourcecode'/></IconButton>
-      </div>
-      <Card.Body style={{marginRight:'30px'}}>
-        <Card.Title><h1>Portfolio</h1></Card.Title>
-        <Card.Text>
-          This application is developed using React Js, React bootstrap and Material UI. 
-        </Card.Text>
-        
-       
-      </Card.Body>
-      </div>
-    </Card>
+    
     </div>
     
         </div>
