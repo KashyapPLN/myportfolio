@@ -33,7 +33,7 @@ function Skills({skillref}) {
                 <p className='sname'>Bootstrap</p>
                 </div>
                 <div>
-                <img className='techskill'src='https://www.freepnglogos.com/uploads/javascript-png/js-logo-png-5.png' alt='js'/>
+                <img className='techskill'src='https://e7.pngegg.com/pngimages/602/440/png-clipart-javascript-open-logo-number-js-angle-text.png' alt='js'/>
                 <p className='sname'>JavaScript</p>
                 </div>
                 <div>
