@@ -33,7 +33,7 @@ function Skills({skillref}) {
                 <p className='sname'>Bootstrap</p>
                 </div>
                 <div>
-                <img className='techskill'src='https://toppng.com/uploads/preview/javascript-logo-number-angularjs-node-javascript-logo-11563241338go76tq0nxz.png' alt='js'/>
+                <img className='techskill'src='https://brandslogos.com/wp-content/uploads/images/large/javascript-logo.png' alt='js'/>
                 <p className='sname'>JavaScript</p>
                 </div>
                 <div>
