@@ -53,7 +53,7 @@ function Skills({skillref}) {
                 <p className='sname'>Node JS</p>
                 </div>
                 <div>
-                <img className='techskill'src='https://camo.githubusercontent.com/4fca8f8b5d77dc3a28ef31a193aeb76683e2fe52e7ad24a75fef048cd6601f1d/68747470733a2f2f7777772e6f72616e67656d616e7472612e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031392f30352f657870726573736a732d69636f6e2e706e67' alt='express js'/>
+                <img className='techskill'src='https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png' alt='express js'/>
                 <p className='sname'>Express JS</p>
                 </div>
                 <div>
