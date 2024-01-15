@@ -19,7 +19,7 @@ function Contact({contactRef}) {
             <p style={{color:'rgb(248, 245, 207)',fontWeight:'bold'}}>kashyap.pln@gmail.com</p>
           </Container>  
           <Container className='phone'>
-            <img className='emailicon'src='https://i0.wp.com/fiverrpromotion.com/wp-content/uploads/2022/03/63-home-flat.gif?fit=375%2C375&ssl=1'style={{width:'70px',height:'70px'}} alt='homeicon'/>
+            <img className='emailicon'src='https://cdn.pixabay.com/animation/2023/03/31/04/15/04-15-05-521_512.gif'style={{width:'70px',height:'70px'}} alt='homeicon'/>
             <p style={{color:'rgb(248, 245, 207)',fontWeight:'bold'}}>Location</p>
             <p style={{color:'rgb(248, 245, 207)',fontWeight:'bold'}}>Visakhapatnam </p>
           </Container>
