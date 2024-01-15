@@ -37,7 +37,7 @@ function Skills({skillref}) {
                 <p className='sname'>JavaScript</p>
                 </div>
                 <div>
-                <img className='techskill'src='https://d216p14sibfuxn.cloudfront.net/images/modules/react.gif' alt='react'/>
+                <img className='techskill'src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png' alt='react'/>
                 <p className='sname'>React</p>
                 </div>
                 <div>
