@@ -39,7 +39,7 @@ function Name({homeRef}) {
         />
         <div style={{marginTop:'30px'}}>
         <IconButton sx={{color:'white',marginRight:'60px'}} onClick={(e)=>window.open('https://github.com/KashyapPLN')}><img src='https://i.pinimg.com/originals/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.png'alt='githubicon'style={{height:'80px',width:'80px'}}/><span>GitHub</span></IconButton>
-        <IconButton sx={{color:'white'}} onClick={(e)=>window.open('https://drive.google.com/file/d/1x9drMdXA2YmBXjyEenBqRCbpXsiz9IPW/view')}><img src='https://ty.ie/wp-content/uploads/2019/07/cv-icon.png'alt='resume'style={{height:'40px',width:'40px'}} /><span style={{marginLeft:'16px'}}>Resume</span></IconButton>
+        <IconButton sx={{color:'white'}} onClick={(e)=>window.open('https://drive.google.com/file/d/1JE5WEUIKqdztPdwlSQrWHlcdj8pmKdwu/view?usp=sharing')}><img src='https://ty.ie/wp-content/uploads/2019/07/cv-icon.png'alt='resume'style={{height:'40px',width:'40px'}} /><span style={{marginLeft:'16px'}}>Resume</span></IconButton>
         </div>
         
         </div>
