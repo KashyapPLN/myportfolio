@@ -37,7 +37,7 @@ function Projects({projectRef}) {
            <Card className='project-card'style={{ width: '800px',color:'rgb(248, 245, 207)',height:'350px',border:'none',borderRadius:'8px',padding:'20px',lineHeight:'25px'}}>
             <div style={{display:'flex',marginTop:'30px'}}>
             <div>
-      <Card.Img className='project-card-img' src={gid_record} />
+      <Card.Img className='project-card-img' src='https://i.ibb.co/zVLwFgG/exptrack.jpg' />
       <div style={{display:'flex',justifyContent:'center'}}>
         <IconButton sx={{marginLeft:'30px'}} onClick={(e)=>window.open('https://expense-tracker-95.netlify.app/')} ><img style={{height:'30px',width:'30px'}}src='https://cdn-icons-png.flaticon.com/512/2807/2807256.png' alt='gid app'/></IconButton>
         <IconButton sx={{marginLeft:'30px'}} onClick={(e)=>window.open('https://github.com/KashyapPLN/expense-tracker-frontend')} ><img style={{height:'40px',width:'40px'}} src='https://cdn-icons-png.flaticon.com/512/876/876019.png' alt='gid source code'/></IconButton>    
