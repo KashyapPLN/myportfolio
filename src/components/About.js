@@ -16,7 +16,6 @@ Following that, I developed an Expense Tracker application, enabling users to mo
 
 I have 1.1 years of professional experience as a Frontend Developer at Cynapto Technologies in Mumbai, from May 2023 to the end of May 2024, where I honed my skills in React.js and JavaScript.
 
-            </p>
           </p>  
           </Container>
           
