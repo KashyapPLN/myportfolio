@@ -14,7 +14,7 @@ My journey into web development began with a fascination for building applicatio
 
 Following that, I developed an Expense Tracker application, enabling users to monitor their monthly expenses, categorize them, and visualize spending trends through interactive charts.
 
-I have 1.1 years of recent professional experience as a Frontend Developer at Cynapto Technologies in Mumbai, from May 2023 to the end of May 2024, where I honed my skills in React.js and JavaScript.
+I have 1.1 years of professional experience as a Frontend Developer at Cynapto Technologies in Mumbai, from May 2023 to the end of May 2024, where I honed my skills in React.js and JavaScript.
 
             </p>
           </p>  
