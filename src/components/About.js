@@ -8,10 +8,13 @@ function About({aboutRef}) {
             <h2 style={{color:'rgb(248, 245, 207)',fontWeight:'bold',fontSize:'60px',textAlign:'center'}}>About me</h2>
             <Container className='about-container'>
             <p className='about-content'>
-          Hi, I am P.L.N Kashyap from Visakhapatnam.I am an engineer with an Information Technology background.
-          I completed my graduation in the year 2012. During third year of engineering, I met with a fatal accident due to which I was hospitalized and had undergone a couple of surgeries. I was bed-ridden for several months and it took me few years to recover from physical and mental trauma that I have endured due to the catastrophe, which took a toll on my career.
-           However, I never gave up and overcame all the odds with self motivation.Despite several physical complications, I paid focus on my body as well as my career at the same time. <p>Since last year, I started working out and reduced oodles of weight.
-            On the career front, I was fascinated by web development and started learning MERN Stack.I had developed a Web Application called The Great Indian Dessert. It is an online platform for ordering your favourite dessert and getting it delivered at your doorstep.
+         Hi, I’m P.L.N Kashyap from Visakhapatnam. I have an engineering background in Information Technology and graduated in 2012. During my third year of college, I faced a major setback due to a severe accident that resulted in multiple surgeries and left me bedridden for several months. The physical and mental challenges from that ordeal significantly impacted my career trajectory. However, I stayed resilient, motivated myself, and overcame the odds by focusing on my recovery and future goals.
+
+My journey into web development began with a fascination for building applications, leading me to master the MERN stack. I created my first project, The Great Indian Dessert, a web application for ordering delicious desserts and having them delivered straight to your doorstep.
+
+Following that, I developed an Expense Tracker application, enabling users to monitor their monthly expenses, categorize them, and visualize spending trends through interactive charts.
+
+I have 1.1 years of recent professional experience as a Frontend Developer at Cynapto Technologies in Mumbai, from May 2023 to the end of May 2024, where I honed my skills in React.js and JavaScript.
 
             </p>
           </p>  
