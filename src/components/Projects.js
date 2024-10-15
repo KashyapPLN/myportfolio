@@ -34,7 +34,7 @@ function Projects({projectRef}) {
     {/* <img src=' https://i.pinimg.com/originals/0c/45/15/0c4515230a5f97f081a3f084b9d54c7a.gif' style={{height:'300px',width:'60px'}}/> */}
     
     </div>
-            <div className='projectDetails'>
+       
            <Card className='project-card'style={{ width: '800px',color:'rgb(248, 245, 207)',height:'350px',border:'none',borderRadius:'8px',padding:'20px',lineHeight:'25px'}}>
             <div style={{display:'flex',marginTop:'30px'}}>
             <div>
@@ -53,9 +53,7 @@ function Projects({projectRef}) {
       </Card.Body>
       </div>
     </Card>
-    {/* <img src=' https://i.pinimg.com/originals/0c/45/15/0c4515230a5f97f081a3f084b9d54c7a.gif' style={{height:'300px',width:'60px'}}/> */}
-    
-    </div>
+ 
     
         </div>
     );
