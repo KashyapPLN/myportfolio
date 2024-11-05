@@ -4,9 +4,9 @@ import { Container } from 'react-bootstrap';
 
 function Contact({contactRef}) {
     return (
-        <div ref={contactRef} id='contact' style={{height:'100vh'}}>
+        <div ref={contactRef} id='contact' style={{height:'100vh',display:'flex',flexDirection:'column',alignItems:'center',justifyContent:'center'}}>
             <h2 style={{color:'rgb(248, 245, 207)',fontWeight:'bold',fontSize:'60px',textAlign:'center'}}>Contact</h2>
-        <Container style={{display:'flex',justifyContent:'space-evenly'}}>
+        <Container style={{display:'flex',justifyContent:'space-evenly',gap:'4em'}}>
             
           <Container className='phone'>
             <img src='https://media1.giphy.com/media/mbW2nvTE0TUc5IgRMm/giphy.gif?cid=6c09b95292377b798e2a21062d1c0c31021cc4209e405fd6&rid=giphy.gif&ct=s'style={{width:'80px',height:'80px'}} alt='phone'/>

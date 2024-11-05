@@ -3,8 +3,10 @@
  }
  .projectDetails{
     display: flex;
-    justify-content: space-around;
-  }
+     justify-content: center;
+    flex-wrap:wrap;
+    gap:4em;
+    }
   .projectheading{
     color:rgb(248, 245, 207);
     /* background-color:rgba(197, 47, 47, 0.658); */
@@ -13,7 +15,6 @@
     font-weight: bolder;
    text-align: center;
     font-size: 60px;
-    margin-bottom: 8%;
     text-align: center;
   }
   .project-card-img{
@@ -25,5 +26,5 @@
 
   }
   .Projects{
-    height: 100vh;
+    min-height: 100vh;
   }
