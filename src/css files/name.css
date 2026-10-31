@@ -1,6 +1,16 @@
-.text{
+.home{
+    min-height: 100vh;
+    padding-top: 130px;
+  }
+
+  .hero{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .text{
     color:rgb(248, 245, 207);
-  
+
     font-size: 50px;
   }
 
@@ -11,7 +21,95 @@
     font-weight: bolder;
     color:rgb(248, 245, 207);
     font-size: 100px;
-    
+
     text-decoration: none;
     margin-top: 30px;
+  }
+
+  .hero-buttons{
+    margin-top: 30px;
+  }
+  .github-icon{
+    height: 80px;
+    width: 80px;
+  }
+  .resume-icon{
+    height: 40px;
+    width: 40px;
+  }
+
+  .hero-img{
+    height: 600px;
+    width: 600px;
+    margin-right: 150px;
+  }
+
+  @media (max-width: 1400px){
+    .hero-img{
+      height: 450px;
+      width: 450px;
+      margin-right: 40px;
+    }
+  }
+
+  @media (max-width: 1200px){
+    .nc{
+      padding-left: 40px;
+    }
+    .name{
+      font-size: 80px;
+    }
+    .text{
+      font-size: 40px;
+    }
+    .hero-img{
+      height: 380px;
+      width: 380px;
+    }
+  }
+
+  @media (max-width: 992px){
+    .home{
+      padding-top: 40px;
+    }
+    .hero{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .nc{
+      padding: 0 16px;
+    }
+    .name{
+      font-size: 64px;
+      margin-top: 16px;
+    }
+    .text{
+      display: block;
+      min-height: 2.6em;
+      font-size: 32px;
+    }
+    .hero-img{
+      width: 80vw;
+      max-width: 400px;
+      height: auto;
+      margin: 24px 0 0;
+    }
+  }
+
+  @media (max-width: 576px){
+    .name{
+      font-size: 46px;
+    }
+    .text{
+      font-size: 24px;
+    }
+    .github-icon{
+      height: 56px;
+      width: 56px;
+    }
+    .resume-icon{
+      height: 32px;
+      width: 32px;
+    }
   }

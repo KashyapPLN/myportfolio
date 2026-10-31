@@ -1,30 +1,86 @@
-.project-card{
-    background: rgba(255, 255, 255, 0.075);
- }
- .projectDetails{
-    display: flex;
-     justify-content: center;
-    flex-wrap:wrap;
-    gap:4em;
-    }
+.Projects{
+    min-height: 100vh;
+    padding-bottom: 64px;
+  }
   .projectheading{
     color:rgb(248, 245, 207);
-    /* background-color:rgba(197, 47, 47, 0.658); */
-    /* width: 10%; */
     padding:15px;
     font-weight: bolder;
-   text-align: center;
     font-size: 60px;
     text-align: center;
   }
-  .project-card-img{
-    width:300px;
-    height:180px;
-    margin:30px;    
-    border-radius:5px;
-   
+ .projectDetails{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+    }
+.project-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: rgba(255, 255, 255, 0.075);
+    border: 1px solid rgba(248, 245, 207, 0.15);
+    border-top: 3px solid rgb(248, 245, 207);
+    border-radius: 12px;
+    padding: 32px;
+    color: rgb(248, 245, 207);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+ }
+ .project-card:hover{
+    transform: translateY(-4px);
+    border-color: rgba(248, 245, 207, 0.5);
+ }
+ .project-number{
+    position: absolute;
+    top: 16px;
+    right: 24px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    color: rgba(248, 245, 207, 0.12);
+ }
+ .project-title{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0;
+    padding-right: 64px;
+ }
+ .project-points{
+    margin: 0;
+    padding-left: 20px;
+    line-height: 1.6;
+    color: rgba(248, 245, 207, 0.85);
+ }
+ .project-points li{
+    margin-bottom: 8px;
+ }
 
+  @media (max-width: 992px){
+    .projectDetails{
+      grid-template-columns: minmax(0, 1fr);
+      max-width: 720px;
+      gap: 24px;
+    }
   }
-  .Projects{
-    min-height: 100vh;
+
+  @media (max-width: 576px){
+    .projectheading{
+      font-size: 42px;
+    }
+    .projectDetails{
+      padding: 0 16px;
+    }
+    .project-card{
+      padding: 24px 20px;
+    }
+    .project-title{
+      font-size: 22px;
+    }
+    .project-number{
+      font-size: 36px;
+    }
   }

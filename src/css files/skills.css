@@ -1,3 +1,43 @@
+.skills-section{
+    display: flex;
+    justify-content: space-around;
+  }
+  .skill-categories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+    max-width: 1200px;
+    margin: 64px auto 0;
+    padding: 0 32px 64px;
+  }
+  .skill-category{
+    background-color: rgba(255, 255, 255, 0.075);
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .skill-category h3{
+    color: rgb(248, 245, 207);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 16px;
+  }
+  .skillhead-cotainer{
+    background-color: rgba(255, 255, 255, 0.075);
+    width: 600px;
+    height: 500px;
+    margin-top: 90px;
+    border-radius: 8px;
+  }
+  .skillhead-content{
+    width: 400px;
+    height: 300px;
+  }
+  .skill-intro{
+    color: rgb(248, 245, 207);
+    margin-left: 45%;
+    letter-spacing: 2px;
+    line-height: 25px;
+  }
 .skills{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -7,11 +47,10 @@
     padding-top: 50px;
     padding-bottom: 50px;
     width: 800px;
-    height:500px;
     /* width:500px;
     height:800px; */
     justify-items: center;
-    
+
   }
   .techskill{
     width:80px;
@@ -19,7 +58,7 @@
     padding:15px;
     /* background-color:rgba(197, 47, 47, 0.151); */
   }
-  
+
   .skillheading{
     color:rgb(248, 245, 207);
     /* background-color:rgba(197, 47, 47, 0.658); */
@@ -31,11 +70,12 @@
     font-size: 100px;
      margin-bottom: 8%;
   border-bottom: 1px solid rgb(248, 245, 207);
-  
+    text-align: center;
+
     /* writing-mode: vertical-lr; */
   /* text-orientation: sideways; */
   /* transform: rotateZ(180deg); */
-  
+
   }
   .sname{
     color:rgb(248, 245, 207);
@@ -44,3 +84,69 @@
   /* .skill-container{
     background: url('https://i.gifer.com/Ouv1.gif');
   } */
+
+  @media (max-width: 1400px){
+    .skills-section{
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      padding: 0 16px;
+    }
+    .skillhead-cotainer{
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      margin-top: 60px;
+      padding: 24px;
+    }
+    .skillhead-content{
+      width: auto;
+      height: auto;
+    }
+    .skillheading{
+      display: table;
+      width: auto;
+      margin: 0 auto 24px;
+      font-size: 72px;
+    }
+    .skill-intro{
+      margin-left: 0;
+      text-align: center;
+    }
+    .skills{
+      box-sizing: border-box;
+      width: 100%;
+      max-width: 800px;
+      padding-top: 0;
+    }
+  }
+
+  @media (max-width: 768px){
+    .skills{
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 24px;
+    }
+  }
+
+  @media (max-width: 576px){
+    .skill-categories{
+      margin-top: 40px;
+      padding: 0 16px 40px;
+    }
+    .skill-category{
+      padding: 20px;
+    }
+    .skillheading{
+      font-size: 52px;
+      letter-spacing: 4px;
+    }
+    .techskill{
+      width: 56px;
+      height: 56px;
+      padding: 10px;
+    }
+    .sname{
+      font-size: 14px;
+    }
+  }

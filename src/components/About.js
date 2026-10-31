@@ -5,20 +5,24 @@ import { Container } from 'react-bootstrap';
 function About({aboutRef}) {
     return (
         <div ref={aboutRef} id='about'>
-            <h2 style={{color:'rgb(248, 245, 207)',fontWeight:'bold',fontSize:'60px',textAlign:'center'}}>About me</h2>
+            <h2 className='section-heading'>About me</h2>
             <Container className='about-container'>
-            <p className='about-content'>
-         Hi, I’m P.L.N Kashyap from Visakhapatnam. I have an engineering background in Information Technology and graduated in 2012. During my third year of college, I faced a major setback due to a severe accident that resulted in multiple surgeries and left me bedridden for several months. The physical and mental challenges from that ordeal significantly impacted my career trajectory. However, I stayed resilient, motivated myself, and overcame the odds by focusing on my recovery and future goals.
-
-My journey into web development began with a fascination for building applications, leading me to master the MERN stack. I created my first project, The Great Indian Dessert, a web application for ordering delicious desserts and having them delivered straight to your doorstep.
-
-Following that, I developed an Expense Tracker application, enabling users to monitor their monthly expenses, categorize them, and visualize spending trends through interactive charts.
-
-I have 1.1 years of professional experience as a Frontend Developer at Cynapto Technologies in Mumbai, from May 2023 to the end of May 2024, where I honed my skills in React.js and JavaScript.
-
-          </p>  
+            <div className='about-content'>
+          <p>
+            Hi, I’m P.L.N Kashyap from Visakhapatnam, a Full Stack Developer with 3.5+ years of professional experience building web and mobile applications using React.js, React Native, JavaScript, Node.js, Express.js and MongoDB.
+          </p>
+          <p>
+            I currently work as a Software Engineer at AdMAVIN (Mandark Technologies), Chennai. There I single-handedly built the UI of the iRide web app and developed many features of the iRide mobile app using React Native. I’ve also worked on an AI-powered Chrome extension and a live traffic monitoring application, and I’m the sole developer of Malba, a MERN-stack waste management platform.
+          </p>
+          <p>
+            Before that, I worked as a Frontend Developer at Cynapto Technologies from May 2023 to December 2024, building a video localization platform with custom playback controls, transcript highlighting, AWS S3 uploads and payment workflows.
+          </p>
+          <p>
+            I enjoy owning features end to end, turning business needs into technical solutions, and collaborating with cross-functional teams in Agile environments.
+          </p>
+          </div>
           </Container>
-          
+
         </div>
     );
 }

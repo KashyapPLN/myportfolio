@@ -1,12 +1,15 @@
 #about{
-    height:100vh;
+    min-height:100vh;
 }
 .about-content{
 
     color:rgb(248, 245, 207);
   /* width:600px; */
   padding:30px;
-  
+
+  }
+  .about-content p{
+    margin: 0 0 20px;
   }
   .about-container{
     font-family: 'Cookie', cursive;
@@ -20,4 +23,30 @@
     border-radius: 8px;
     line-height: 35px;
     letter-spacing: 4px;
+  }
+
+  @media (max-width: 1200px){
+    .about-container{
+      width: 70%;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 768px){
+    .about-container{
+      width: auto;
+      padding: 0 16px;
+      letter-spacing: 2px;
+    }
+    .about-content{
+      padding: 16px 0;
+    }
+  }
+
+  @media (max-width: 576px){
+    .about-container{
+      font-size: 22px;
+      line-height: 30px;
+      letter-spacing: 1px;
+    }
   }
